@@ -1,0 +1,38 @@
+.coaster-list .card {
+  margin-bottom: 20px;
+}
+
+.coaster-list img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.coaster-list p {
+  font-size: 12px;
+}
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-weight: 200;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.newCoaster {
+  margin-bottom: 20px;
+  text-align: right;
+}
